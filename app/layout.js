@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header";
+import { ClerkProvider } from "@clerk/nextjs";
 
 
 
@@ -10,11 +12,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <ClerkProvider>
     <html lang="en">
       <body
         className={``}
       >
-       {/*<Header /> */}
+       <Header /> 
           <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
             {children}
           </main>
@@ -25,5 +28,6 @@ export default function RootLayout({ children }) {
           </footer>
       </body>
     </html>
+    </ClerkProvider>
   );
 }
