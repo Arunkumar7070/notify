@@ -5,6 +5,7 @@ import { Button } from './ui/button'
 import { PenBox } from 'lucide-react'
 import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
 import { UserButton } from "@clerk/nextjs";
+import UserMenu from "./user-menu";
 
 const header = () => {
   return (
@@ -32,7 +33,7 @@ const header = () => {
           </SignInButton>
         </SignedOut>
         <SignedIn>
-          <UserButton/>
+          <UserMenu/>
         </SignedIn>
       </div>
     </nav>
