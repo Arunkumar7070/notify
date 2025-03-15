@@ -32,6 +32,7 @@ const header = () => {
           </SignInButton>
         </SignedOut>
         <SignedIn>
+          <UserButton/>
         </SignedIn>
       </div>
     </nav>
