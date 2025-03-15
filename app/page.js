@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link"
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-
+import TestimonialsCarousel from "@/components/testimonial";
 import { ArrowRight, Calendar, Clock, LinkIcon } from "lucide-react";
 
 const features = [
@@ -85,6 +85,13 @@ export default function Home() {
             </Card>
           ))}
         </div>
+      </div>
+        {/* Testimonials Section */}
+      <div className="mb-24">
+        <h2 className="text-3xl font-bold text-center mb-12 text-blue-600">
+          What Our Users Say
+        </h2>
+        <TestimonialsCarousel />
       </div>
       {/* CTA Section */}
       <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
