@@ -2,13 +2,12 @@ import React from "react";
 import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
+import { checkUser } from "@/lib/checkUser";
 import UserMenu from "./user-menu";
 import { Button } from "./ui/button";
 import { PenBox } from "lucide-react";
-import { checkUser } from '@/lib/checkUser';
-import { Header } from '@/components/header';
 
-const Header = async () => {
+async function Header() {
   await checkUser();
 
   return (
