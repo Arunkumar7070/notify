@@ -81,7 +81,6 @@ export default function EventCard({ event, username, isPublic = false }) {
             onClick={handleDelete}
             disabled={loading}
           >
-            <Trash2 className="mr-2 h-4 w-4" />
             {loading ? "Deleting..." : "Delete"}
           </Button>
         </CardFooter>
