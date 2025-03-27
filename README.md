@@ -1,6 +1,6 @@
-# Syncswift
+# Notify
 
-Syncswift is a Calendly clone built with **Next.js, React, Prisma, PostgreSQL, Clerk authentication, and Shadcn UI**. It allows users to **schedule meetings, manage availability, and generate calendar events with ease**.
+It is a Calendly clone built with **Next.js, React, Prisma, PostgreSQL, Clerk authentication, and Shadcn UI**. It allows users to **schedule meetings, manage availability, and generate calendar events with ease**.
 
 ## Features
 
@@ -42,10 +42,6 @@ Syncswift is a Calendly clone built with **Next.js, React, Prisma, PostgreSQL, C
 
 ```sh
 npm i
-npm list --depth=0 > packages.txt
-npm install --legacy-peer-deps
-npm install --force
-npm install @radix-ui/react-icons@x.x.x in requirements.txt
 npx prisma migrate dev
 npm run dev
 
