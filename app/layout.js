@@ -7,7 +7,7 @@ import CreateEventDrawer from "@/components/create-event";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Schedulrr",
+  title: "Notify",
   description: " ",
 };
 
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           </main>
           <footer className="bg-blue-100 py-12">
             <div className="container mx-auto px-4 text-center text-gray-600">
-              <p>Developed by Arun Kumar and Shri Vishall</p>
+              <p>Developed by Arun Kumar and Shri Vishaal</p>
             </div>
           </footer>
           <CreateEventDrawer />
