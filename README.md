@@ -55,3 +55,4 @@ NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
 ```
+![Erd _diagram](<Screenshot 2025-04-01 at 2.01.24 PM.png>)
