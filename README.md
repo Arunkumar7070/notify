@@ -19,7 +19,7 @@ It is a Calendly clone built with **Next.js, React, Prisma, PostgreSQL, Clerk au
 - **Backend**: Next.js API Routes, Prisma ORM
 - **Database**: PostgreSQL
 - **Authentication**: Clerk
-- **State Management**: React Hooks
+- **State Management**: React Hook
 
 ## Technologies Used
 
